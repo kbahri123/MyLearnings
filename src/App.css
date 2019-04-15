@@ -1,0 +1,96 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App .Calculator{
+  
+    border: 2px solid #47476b;
+    padding: 5px;
+    background: black;
+    width: 320px;
+    position: relative;
+}
+
+.App .Calculator .Button{
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  /* border: none; */
+  background: #4d4d4d;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: pointer;
+}
+ 
+#clear{
+  background: rgb(172, 57, 57);
+  width:160px;
+} 
+#zero{
+  width:160px;
+}
+
+#equal{
+  background: rgb(0, 68, 102);
+  position: absolute;
+  height: 130px;
+  bottom: 5px;
+}
+
+.App .Calculator .displayScreen{
+    min-height: 20px;
+    font-family: digital;
+    font-size: 20px;
+    color: orange;
+    text-align: right;
+    vertical-align: text-top;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    
+}
+
+  .App .Calculator .display{
+    min-height: 35px;
+    font-size: 29px;
+    font-family: digital;
+    color: white;
+    text-align: right;
+    line-height: 35px;
+    
+}
